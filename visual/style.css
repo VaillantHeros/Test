@@ -1,0 +1,154 @@
+*, ::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #333;
+    background: url('img/foretlumdown.jpg');
+    font-family: 'ballpark';
+    background-repeat: no-repeat;
+    background-size: 1290px; 
+    background-position: center;
+    text-shadow: 0px 0px 8px black;
+    color: khaki;
+
+    height: 100vh;
+    position: relative;
+    opacity: 1;
+    overflow-x: hidden;
+    width: relative;
+}
+
+h1
+{
+    font-size: 60px;
+    font-family: "ballpark";
+    text-transform: uppercase;
+    color: #f1f1f1;
+
+}
+
+@font-face
+{
+    font-family: "ballpark";
+    src: url(polices/dayrom.woff);
+}
+
+.container-first
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+h1 span
+{
+    position: relative;
+}
+
+
+
+.container-btns
+{
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+
+.btn-first
+{
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 5px;
+    width: 300px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn-first:nth-child(1)
+{
+    margin-right: 30px;
+}
+
+.btn-first:hover
+{
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333; 
+}
+
+.lignes
+{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+
+.l1
+{
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.l2
+{
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px
+}
+
+.logo
+{
+    position: absolute;
+    right: 1.2%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.medias
+{
+    list-style-type: none;
+    position: absolute;
+    right: 1.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bulle
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:0.01px transparent #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.logo-medias
+{
+    width: 40px;
+    height: 40px;
+}
